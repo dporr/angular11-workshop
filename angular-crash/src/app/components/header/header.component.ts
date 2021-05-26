@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  title: string = 'Task tracker YT demo';
   constructor() { }
 
   ngOnInit(): void {
