@@ -13,4 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleAddTask(): void{
+      console.log("recived forwarded click")
+  }
 }
